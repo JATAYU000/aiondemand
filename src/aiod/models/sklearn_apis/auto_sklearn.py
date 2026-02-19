@@ -3,7 +3,7 @@
 from aiod.models.apis import _ModelPkgSklearnEstimator
 
 
-class AiodPkg__AutoSklearnClassifier(_ModelPkgSklearnEstimator):
+class AiodPkgAutoSklearnClassifier(_ModelPkgSklearnEstimator):
     _tags = {
         "pkg_id": "AutoSklearnClassifier",
         "python_dependencies": "auto-sklearn",

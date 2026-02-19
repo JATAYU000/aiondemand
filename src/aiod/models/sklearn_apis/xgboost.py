@@ -3,7 +3,7 @@
 from aiod.models.apis import _ModelPkgSklearnEstimator
 
 
-class AiodPkg__XGBClassifier(_ModelPkgSklearnEstimator):
+class AiodPkgXGBClassifier(_ModelPkgSklearnEstimator):
     _tags = {
         "pkg_id": "XGBClassifier",
         "python_dependencies": "xgboost",
